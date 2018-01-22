@@ -28,7 +28,7 @@ export class HomePage {
     this.fcm.onTokenRefresh().subscribe(token=>{
       console.log(token);
     })
-    this.fcm.unsubscribeFromTopic('mycustomtopic');
+    //this.fcm.unsubscribeFromTopic('mycustomtopic');
   }
 
   sendNotification(){
